@@ -1,0 +1,20 @@
+  <style>
+body {
+}
+table {
+font-size: 1.2em;
+}
+input {
+padding: 1px;
+text-align: right;
+width: 50px;
+margin-right: 15px;
+}
+input, select, submit {
+vertical-align: middle;
+}
+#slider-1 {
+margin-left: 25px;
+height: 250px;
+}
+  </style>

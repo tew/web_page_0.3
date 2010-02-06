@@ -1,0 +1,17 @@
+{"root":{"config":{"chauffage":[
+    {"consigne":[510,525],"modePlage":[32512,15360],"affectation":2,"mode":2,"flags":129},
+    {"consigne":[500,525],"modePlage":[8184,15360],"affectation":3,"mode":2,"flags":132},
+    {"consigne":[530,585],"modePlage":[16128,4094],"affectation":4,"mode":2,"flags":130}],
+"affectationSonde":[0,0,5,0,6,1,0,4,2,7,0,0,9,3,0,0],
+"valeurLedsMinMax":[3,40],
+"luminoAmbiante":[200,3600],
+"ledNocturne":[0,22],
+"backlight":[30,200],
+"heureTarifs":[0,34030,32860,0,34150,33220],
+"flags":1},
+"data":{
+"lumino":1473,
+"tempe":[0,466,517,508,570,508,510,521,0,502,0,0],
+"hygro":[0,91,75,70,255,255,255,72,0,255,0,0],
+"chauffage":{"nb_zones":3,
+"zones":[{"consCrt":500,"nbRad":1,"radActif":0,"modeCrt":0,"flags":1},{"consCrt":490,"nbRad":1,"radActif":0,"modeCrt":0,"flags":1},{"consCrt":575,"nbRad":1,"radActif":1,"modeCrt":1,"flags":1}]},"edf":{"edf_ok":1,"minSinceLastSet":0,"nbTrames":548251,"hchp":2,"hc":10604283,"hp":8719361,"papp":450,"iinst":2}}}}

@@ -1,0 +1,11 @@
+{"root":{
+
+"config":{"chauffage":[{"consigne":[540,565],"modePlage":[16777184,15360],"affectation":2,"mode":2},{"consigne":[505,530],"modePlage":[32752,15360],"affectation":3,"mode":2}],"affectationSonde":[0,0,5,0,6,1,0,4,0,7,0,0,2,3,0,0],"valeurLedsMinMax":[3,100],"luminoAmbiante":[200,3600],"ledNocturne":[0,22],"backlight":[30,200]},
+
+"data":{
+    "lumino":3923,
+    "tempe":[0,427,582,533,584,530,515,564,0,0,0,0],
+    "hygro":[0,89,255,65,255,255,255,50,0,0,0,0],
+    "chauffage":[{"consCrt":540,"nbRad":2,"radActif":0,"modeCrt":0},{"consCrt":505,"nbRad":1,"radActif":0,"modeCrt":0}],
+    "edf":{"edf_ok":1,"minSinceLastSet":0,"nbTrames":3570,"hchp":2,"hc":9882963,"hp":8246982,"papp":430,"iinst":2}}
+}}

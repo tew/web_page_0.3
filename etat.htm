@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Nestor, a votre service</title><style type="text/css"></style>
+
+
+
+
+<link rel="stylesheet" href="innovati/default.css" type="text/css"></head>
+
+    <body>
+<script language="JavaScript" src="mainetat.js">
+</script>
+<br>
+<br>
+<table style="text-align: left; width: 100%; height: 942px;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="text-align: center; height: 8px;"> </td>
+<td style="text-align: center; width: 152px; height: 8px;">
+</td>
+<td style="text-align: center; width: 56px; height: 8px;">
+</td>
+<td style="text-align: center; width: 162px; height: 8px;">
+</td>
+<td style="text-align: center; height: 8px;"> </td>
+<td style="text-align: center; width: 104px; height: 8px;">
+</td>
+<td style="text-align: center; width: 124px; height: 8px;">
+</td>
+<td style="text-align: center; height: 8px;"> </td>
+</tr>
+<tr>
+<td style="text-align: center; height: 113px;">
+</td>
+<td style="text-align: center; background-color: rgb(255, 255, 204); height: 113px;" id="cell_cuisine" colspan="2" rowspan="3"> <big>
+Cuisine </big> <br>
+<p id="tempe_cuisine"> </p>
+</td>
+<td colspan="2" rowspan="1" style="width: 128px; height: 113px;"> <big>
+Extérieur </big> <br>
+<br>
+<p id="tempe_ext"> </p>
+</td>
+<td style="height: 113px;" align="undefined" valign="undefined"> <br>
+</td>
+<td style="height: 113px;" align="undefined" valign="undefined"> <br>
+</td>
+<td style="height: 113px;" align="undefined" valign="undefined"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; height: 80px;"> <br>
+</td>
+<td style="text-align: center; width: 228px; background-color: rgb(255, 255, 102);" colspan="2" rowspan="6"> <big> Salon </big>
+<br>
+<p id="id_lum"> </p>
+<p id="tempe_salon"> </p>
+<p id="chauf_salon"> </p>
+<big>
+    <select id="mode_zone1" name="mode_zone1" onclick="modif_zone(0)">
+        <option value="ECO">Economique</option>
+        <option value="CONF">Confort</option>
+        <option value="AUTO">Auto</option>
+    </select> <br>
+</big>
+<div style="text-align: left;">
+    <form action="url_page_suivante" method="get" name="zone0">
+        <input name="mode" value="Eco" type="radio">Economique <br>
+        <input name="mode" value="Conf" type="radio">Confort <br>
+        <input name="mode" value="Auto" type="radio">Auto <br>
+        <input name="mode" value="Off" type="radio">Off <br>
+        <input name="mode" value="HG" type="radio">Hors-Gel <br>
+        <input onclick="verifRadio();" value=" Envoyer " type="button">
+    </form>
+</div>
+<p id="cons0_set"> </p>
+<form action="url_page_suivante" method="get" name="zone0_cons0"> <input onclick="consMoins(0,0);" value="-" type="button"><input onclick="consPlus(0,0);" value="+" type="button"><input onclick="consSend(0,0);" value=" Envoyer " type="button">
+</form>
+<p id="cons1_set"> </p>
+<form action="url_page_suivante" method="get" name="zone0_cons1"> <input onclick="consMoins(0,1);" value="-" type="button"><input onclick="consPlus(0,1);" value="+" type="button"><input onclick="consSend(0,1);" value=" Envoyer " type="button">
+</form>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+</tr>
+<tr>
+<td style="height: 32px;"> <br>
+</td>
+<td style="text-align: center; background-color: rgb(255, 255, 102);" colspan="2" rowspan="2" valign="undefined"> <big>
+Entrée </big> </td>
+<td align="undefined" valign="undefined"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; height: 132px;"> <br>
+</td>
+<td style="text-align: center; height: 240px; background-color: rgb(181, 255, 181);" colspan="2" rowspan="2"> <big> Chambre </big>
+<br>
+<p id="tempe_chambre"> </p>
+<p id="chauf_chambre"> </p>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; height: 108px;"> <br>
+</td>
+<td style="text-align: center; background-color: rgb(181, 255, 181);" colspan="1" rowspan="1"> <br>
+</td>
+<td style="text-align: center; background-color: rgb(204, 255, 255);">
+<big> SdB </big> </td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; height: 120px;"> <br>
+</td>
+<td style="text-align: center; background-color: rgb(204, 255, 255);">
+<big> Salle de bain </big>
+<p id="tempe_sdb"> </p>
+</td>
+<td style="text-align: center;"> <br>
+</td>
+<td style="text-align: center; background-color: rgb(181, 255, 181);" colspan="2" rowspan="2"> <br>
+<big> Chambre d'amis </big> <br>
+<p id="tempe_chamis"> </p>
+<p id="chauf_chamis"> </p>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; height: 112px;"> <br>
+</td>
+<td style="text-align: center; background-color: rgb(181, 255, 181);" colspan="2" rowspan="2"> <big> Atelier </big>
+<p id="tempe_atelier"> </p>
+</td>
+<td style="vertical-align: top;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; height: 72px;"> <br>
+</td>
+<td style="text-align: center; background-color: rgb(204, 255, 255);">
+Douche </td>
+<td style="text-align: center;" colspan="3" rowspan="1"> Balcon </td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; height: 20px;"> <br>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+<td style="text-align: center;" valign="undefined">
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</body></html>
